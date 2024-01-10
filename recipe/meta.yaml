@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_samba-{{ version }}.tar.gz
   sha256: 7cda404a3b585a3e0409ac7fdb123f4dcd5ce33f94399396305cd797fa64ab2b
 
 build:
