@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-samba" %}
-{% set version = "4.5.0" %}
+{% set version = "4.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_samba-{{ version }}.tar.gz
-  sha256: 7cda404a3b585a3e0409ac7fdb123f4dcd5ce33f94399396305cd797fa64ab2b
+  sha256: 1e78c54432f42d5245f9981365b8e2672977454c5a875e721b706bd9f54c19a7
 
 build:
   noarch: python
