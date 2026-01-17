@@ -29,7 +29,7 @@ requirements:
 tests:
   - python:
       imports:
-        - airflow.providers.samba
+      - airflow.providers.samba
       pip_check: true
       python_version: ${{ python_min }}.*
 
