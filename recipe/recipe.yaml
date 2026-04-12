@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-samba
-  version: "4.12.4"
+  version: "4.12.5"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apache_airflow_providers_samba-${{ version }}.tar.gz
-  sha256: 31eec8c8de5bb236bb9175803cfe6d82d51464d4d749cf0f33b6684aaf68899d
+  sha256: b051b94e3305d7e68766fc28ae32fcd219830d794ec4cd000098f31fc8097b7c
 
 build:
   noarch: python
