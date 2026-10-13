@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-samba
-  version: "4.14.0"
+  version: "4.14.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apache_airflow_providers_samba-${{ version }}.tar.gz
-  sha256: f1be4ed3f8e71bd2ff98dd297f561a563aa385739e0991fa6e09fc95a4914e48
+  sha256: 1f9fca86db7689a00e43e93514981a2b3c4b5ebd2b3dc7e1710f1ad21e639957
 
 build:
   noarch: python
@@ -19,7 +19,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - flit-core ==4.0.2
+    - flit-core ==4.1.0
   run:
     - python >=${{ python_min }}
     - apache-airflow >=2.11.0
